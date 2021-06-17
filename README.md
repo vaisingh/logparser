@@ -1,8 +1,10 @@
 **Apache log parser**
+
 Apache log parser is a service through which one can parse and analyze the Apache log files.
 This is based upon apachelogs python library. Also, used dataframe and tabulate for genearting reports.
 
 **Installation and Dependencies**
+
 The script will require python 3 to be installed with some dependent libraries to be installed using pip
 python3 -m pip install pandas
 python3 -m pip install tabulate
@@ -10,6 +12,7 @@ python3 -m pip install apachelogs
 
 
 **Usage**
+
 To execute the script run the below command
 
 python ./logparser.py filepath/filename
