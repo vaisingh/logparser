@@ -1,6 +1,5 @@
-from apachelogs import LogParser
 import sys
-from attr import __description__
+from apachelogs import LogParser
 from tabulate import tabulate
 from pandas import DataFrame
 
